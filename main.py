@@ -1,15 +1,3 @@
-"""from flask import Flask
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def index():
-    return 'Hello from Flask!'
-
-
-app.run(host='0.0.0.0', port=81)
-"""
 import random
 def findNearNum(exList, values):
     answer = [0 for _ in range(2)] # answer 리스트 0으로 초기화
